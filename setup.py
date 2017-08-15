@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='ellipsoid_overlap_metric',
-      version='0.1',
+      version='0.1.1',
       description='Ellipsoid Overlap Metric for a quantitative measure of how visually distinct two clusters are.',
       url='https://github.com/eddbrown/ellipsoid-overlap-metric',
       author='Edward Brown',

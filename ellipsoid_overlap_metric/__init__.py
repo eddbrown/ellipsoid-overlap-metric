@@ -1,1 +1,1 @@
-from .Scorer import Scorer
+from .Scorer import score, shape_
