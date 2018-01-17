@@ -13,3 +13,16 @@ We can model the data using a 2D Gaussian distribution on the mean of the cluste
 The eigenvectors of the covariance matrix can be calculated and used to form the ellipse that represents the data. The eigenvectors will be orthogonal and will point along the axes of the ellipse.
 
 So for an EOM of 0.9, the ellipses are very closely overlapping, indicative of a poor visualisation. An EOM score of 0.0 means the ellipses are not overlapping at all, so the clusters are visually distinct. This does all of course depend of your confidence level chosen.
+
+## Example Use
+Pretend you have two 2D NumPy arrays, A and B, representing clusters of data. The following code will output out the EOM score:
+```python
+from ellipsoid_overlap_metric import score as eom
+print(eom(A,B))
+```
+
+Free free to submit pull requests or clone the package if you want.
+The Python package is also live on PyPi and can be installed from the command line with:
+pip install ellipsoid_overlap_metric.
+
+Any resemblance this method has to existing methods is coincidental and unintended, those existing methods are likely to be more instructive and well-tested than the ellip- soid_overlap_metric currently is. Furthermore, I am not aware of any current methods that implement this feature in software packages, especially Python, but I do acknowledge that they might already exist.
