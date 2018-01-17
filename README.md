@@ -1,4 +1,4 @@
-# ellipsoid-overlap-metric
+# Ellipsoid Overlap Metric
 Commonly, the ellipses formed from the covariance matrix of clusters of data and their associated multivariate Gaussian distribution are used to visualise the difference in classes
 of data. The EOM assesses the visual distinction of these ellipses clusters of data to help automate the process of choosing visualisations without rendering when using covariance ellipses. 
 
